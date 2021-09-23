@@ -14,7 +14,7 @@ class Translator
 
     @path = '/translate?api-version=3.0'
 
-    puts 'Escolha a lingua a ser original[pt-br,en,de,it...]:'
+    puts 'Escolha a lingua a ser traduzida[pt-br,en,de,it...]:'
     from = gets.chomp
     @original_language = "&from=#{from}"
 
